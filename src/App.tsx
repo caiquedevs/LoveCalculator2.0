@@ -43,7 +43,7 @@ function App() {
 
   const fetchData = async () => {
     const rawResponse = await fetch(
-      `http://localhost:3333/posts/${nameOne + nameTwo}`
+      `${process.env.REACT_APP_URL}/posts/${nameOne + nameTwo}`
     );
 
     if (rawResponse.status !== 200) return false;
@@ -56,7 +56,7 @@ function App() {
   };
 
   const createData = async () => {
-    const rawResponse = await fetch("http://localhost:3333/posts", {
+    const rawResponse = await fetch(`${process.env.REACT_APP_URL}/posts`, {
       method: "POST",
       headers: {
         Accept: "application/json",
