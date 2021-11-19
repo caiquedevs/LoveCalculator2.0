@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+}
+
+img {
+  width: min-content;
+  max-width: 100%;
+
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+
+  user-select: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  user-select: none;
+
+  transition: filter 0.2s ease-out, background-color 0.5s ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.95);
+}
+
+button:disabled:hover {
+  filter: none;
+  cursor: default;
+}
+
+button:active {
+  filter: brightness(0.85);
+}

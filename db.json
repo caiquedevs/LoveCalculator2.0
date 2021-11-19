@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": "caiqueana",
+      "nameOne": "caique",
+      "nameTwo": "ana",
+      "number": 75
+    },
+    {
+      "id": "anacaique",
+      "nameOne": "ana",
+      "nameTwo": "caique",
+      "number": 98
+    },
+    {
+      "id": "caca",
+      "nameOne": "ca",
+      "nameTwo": "ca",
+      "number": 59
+    },
+    {
+      "id": "aa",
+      "nameOne": "a",
+      "nameTwo": "a",
+      "number": 77
+    },
+    {
+      "id": "caiqueamanda",
+      "nameOne": "caique",
+      "nameTwo": "amanda",
+      "number": 33
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
